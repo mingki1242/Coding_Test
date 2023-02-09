@@ -1,14 +1,13 @@
-import javax.xml.transform.stream.StreamSource;
 import java.util.*;
 public class Find_String {
-    public int solution(String str , char t)
+    public int solution(String str , char c)
     {
         int answer = 0;
         str = str.toUpperCase();
-        t = Character.toUpperCase(t);
-        for(int i  = 0 ; i<str.length();i++)
+        c = Character.toUpperCase(c);
+        for(int i = 0 ; i<str.length();i++)
         {
-            if(str.charAt(i) == t)
+            if(str.charAt(i) == c)
             {
                 answer++;
             }
@@ -18,11 +17,11 @@ public class Find_String {
 
     public static void main(String[] argv)
     {
-        Find_String T = new Find_String();
-        Scanner scanner = new Scanner(System.in);
-        String str = scanner.next();
-        char c = scanner.next().charAt(0);
-        System.out.println(T.solution(str , c));
+        Find_String FS = new Find_String();
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        char c = sc.next().charAt(0);
+        System.out.println(FS.solution(str,c));
     }
 
 }
