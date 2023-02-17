@@ -6,7 +6,6 @@ public class continuout_anagram {
     public int solution(String arr , String str)
     {
         int lt = 0;
-
         int rt = str.length()-1;
         int answer= 0;
         HashMap<Character,Integer> am = new HashMap<>();
@@ -19,6 +18,7 @@ public class continuout_anagram {
         {
             bm.put(arr.charAt(i),bm.getOrDefault(arr.charAt(i),0)+1);
         }
+
         for(rt = str.length()-1 ; rt<arr.length();rt++)
         {
             bm.put(arr.charAt(rt),bm.getOrDefault(arr.charAt(rt),0)+1);
