@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class delete_same {
+public class String6 {
     public String solution (String str){
         String answer = "";
 
@@ -16,9 +16,12 @@ public class delete_same {
     }
     public static void main (String[] argv)
     {
-        delete_same dt = new delete_same();
+        String6 dt = new String6();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(dt.solution(str));
     }
+
+
+
 }
