@@ -1,5 +1,5 @@
 import java.util.*;
-public class Find_String {
+public class String1 {
     public int solution(String str , char c)
     {
         int answer = 0;
@@ -17,11 +17,13 @@ public class Find_String {
 
     public static void main(String[] argv)
     {
-        Find_String FS = new Find_String();
+        String1 FS = new String1();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char c = sc.next().charAt(0);
         System.out.println(FS.solution(str,c));
     }
+
+
 
 }

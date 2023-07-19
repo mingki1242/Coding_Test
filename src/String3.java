@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Long_Char{
+public class String3 {
     public String solution (String str)
     {
         String answer = "";
@@ -20,10 +20,12 @@ public class Long_Char{
 
     public static void main(String [] argv)
     {
-        Long_Char LC = new Long_Char();
+        String3 LC = new String3();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(LC.solution(str));
 
     }
+
+
 }

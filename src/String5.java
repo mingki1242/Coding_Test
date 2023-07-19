@@ -1,5 +1,5 @@
 import java.util.*;
-public class reverse{
+public class String5 {
     public String solution(String str)
     {
         String answer = "";
@@ -31,9 +31,11 @@ public class reverse{
     }
     public static void main (String [] argv)
     {
-        reverse rv = new reverse();
+        String5 rv = new String5();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(rv.solution(str));
     }
+
+
 }

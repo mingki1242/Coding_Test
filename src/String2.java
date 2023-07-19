@@ -1,5 +1,5 @@
 import java.util.*;
-public class Find_Upper {
+public class String2 {
     public String solution(String str)
     {
         String answer = "";
@@ -15,10 +15,13 @@ public class Find_Upper {
     }
     public static void main(String[] argv)
     {
-        Find_Upper find_upper = new Find_Upper();
+        String2 find_upper = new String2();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(find_upper.solution(str));
     }
+
+
+
 
 }
