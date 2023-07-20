@@ -1,5 +1,5 @@
 import java.util.*;
-public class between_distance
+public class String10
 {
     public int [] solution (String str , char c)
     {
@@ -37,7 +37,7 @@ public class between_distance
     }
     public static void main (String [] argv)
     {
-        between_distance bd = new between_distance();
+        String10 bd = new String10();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char c = sc.next().charAt(0);

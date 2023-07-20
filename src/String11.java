@@ -1,5 +1,5 @@
 import java.util.*;
-public class press {
+public class String11 {
     public String solution(String str)
     {
         String answer = "";
@@ -25,7 +25,7 @@ public class press {
     }
     public static void main (String [] argv)
     {
-        press pr = new press();
+        String11 pr = new String11();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(pr.solution(str));

@@ -1,5 +1,5 @@
 import java.util.*;
-public class password {
+public class String12 {
     public String solution(int num , String password)
     {
         String answer = "";
@@ -15,7 +15,7 @@ public class password {
     }
     public static void main (String [] argv)
     {
-        password pass = new password();
+        String12 pass = new String12();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         String password = sc.next();

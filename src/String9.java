@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class natual_num {
+public class String9 {
     public int solution(String str)
     {
         int answer = 0;
@@ -24,7 +24,7 @@ public class natual_num {
     }
     public static void main (String[] argv)
     {
-        natual_num nn = new natual_num();
+        String9 nn = new String9();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(nn.solution(str));

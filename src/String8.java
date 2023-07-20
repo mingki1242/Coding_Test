@@ -1,5 +1,5 @@
 import java.util.*;
-public class check_recycling {
+public class String8 {
     public String solution(String str)
     {
         String answer = "YES";
@@ -31,9 +31,11 @@ public class check_recycling {
     }
     public static void main (String [] argv)
     {
-        check_recycling cr = new check_recycling();
+        String8 cr = new String8();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(cr.solution(str));
     }
+
+
 }
