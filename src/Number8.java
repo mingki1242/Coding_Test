@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ranking {
+public class Number8 {
     public int [] solution (int num , int[]arr)
     {
         int[] answer = new int[num];
@@ -26,7 +26,7 @@ public class ranking {
 
     public static void main (String [] argv)
     {
-        ranking rk = new ranking();
+        Number8 rk = new Number8();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int [] arr = new int[num];

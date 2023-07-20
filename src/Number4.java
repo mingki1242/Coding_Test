@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class fibonachi {
+public class Number4 {
     public int [] solution(int num)
     {
         int [] answer = new int[num];
@@ -15,7 +15,7 @@ public class fibonachi {
     }
     public static void main (String [] argv)
     {
-        fibonachi fi = new fibonachi();
+        Number4 fi = new Number4();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for(int x : fi.solution(num))

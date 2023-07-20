@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class reader {
-    public int solution(int num , int[][]arr)
+    /*public int solution(int num , int[][]arr)
     {
         int answer = 0;
         int big = Integer.MIN_VALUE;
@@ -44,6 +44,6 @@ public class reader {
         }
         System.out.print(rd.solution(num , arr));
 
-    }
+    }*/
 
 }

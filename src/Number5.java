@@ -1,5 +1,5 @@
 import java.util.*;
-public class sosu {
+public class Number5 {
     public int solution(int num)
     {
         int answer = 0;
@@ -16,7 +16,7 @@ public class sosu {
     }
     public static void main (String [] argv)
     {
-        sosu ss = new sosu();
+        Number5 ss = new Number5();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.println(ss.solution(num));

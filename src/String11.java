@@ -12,7 +12,6 @@ public class String11 {
                 num++;
             }
             else {
-
                 if(num>1)
                 {
                     answer+=str.charAt(i);

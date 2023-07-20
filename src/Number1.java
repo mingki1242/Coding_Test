@@ -1,6 +1,5 @@
-import java.lang.reflect.Array;
 import java.util.*;
-public class big_num {
+public class Number1 {
     public ArrayList<Integer> solution(int num , int [] arr)
     {
         ArrayList<Integer> answer = new ArrayList<>();
@@ -17,7 +16,7 @@ public class big_num {
 
     public static void main (String [] argv)
     {
-        big_num bn = new big_num();
+        Number1 bn = new Number1();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int arr[] = new int[num];

@@ -1,5 +1,5 @@
 import java.util.*;
-public class reverse_sosu {
+public class Number6 {
     public boolean isPrime(int num){
          if(num == 1) return false;
          for(int i = 2;i<num;i++)
@@ -31,7 +31,7 @@ public class reverse_sosu {
     }
     public static void main(String [] argv)
     {
-        reverse_sosu rs = new reverse_sosu();
+        Number6 rs = new Number6();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int [] arr = new int[num];

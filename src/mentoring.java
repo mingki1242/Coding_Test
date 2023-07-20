@@ -1,6 +1,6 @@
 import java.util.*;
 public class mentoring {
-    public int solution(int horizon , int vertical , int[][]arr)
+   /* public int solution(int horizon , int vertical , int[][]arr)
     {
         int pi = 0 ;
         int pj = 0;
@@ -47,6 +47,6 @@ public class mentoring {
             }
         }
         System.out.print(mt.solution(horizon , vertical , arr));
-    }
+    }*/
 
 }

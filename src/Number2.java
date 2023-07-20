@@ -1,5 +1,5 @@
 import java.util.*;
-public class student_count {
+public class Number2 {
     public int solution(int num , int []arr)
     {
         int answer = 1;
@@ -16,7 +16,7 @@ public class student_count {
     }
     public static void main (String [] argv)
     {
-        student_count ans = new student_count();
+        Number2 ans = new Number2();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int student[] = new int[num];

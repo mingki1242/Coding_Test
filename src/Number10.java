@@ -1,5 +1,5 @@
 import java.util.*;
-public class mountain {
+public class Number10 {
     public int solution(int num , int [][] arr)
     {
         int answer = 0;
@@ -21,7 +21,7 @@ public class mountain {
     }
     public static void main (String [] argv)
     {
-        mountain mt = new mountain();
+        Number10 mt = new Number10();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int [][]arr = new int[num+2][num+2];

@@ -1,5 +1,5 @@
 import java.util.*;
-public class big_num_square {
+public class Number9 {
     public int solution(int num , int[][]arr)
     {
         int answer = 0;
@@ -73,7 +73,7 @@ public class big_num_square {
 
     public static void main (String []argv)
     {
-        big_num_square bns = new big_num_square();
+        Number9 bns = new Number9();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int [][]arr = new int[num][num];

@@ -1,5 +1,5 @@
 import java.util.*;
-public class rock_paper {
+public class Number3 {
     public ArrayList<Character> solution (int num , int [][] arr)
     {
         ArrayList<Character> answer = new ArrayList<>();
@@ -31,7 +31,7 @@ public class rock_paper {
 
     public static void main (String [] argv)
     {
-        rock_paper rp = new rock_paper();
+        Number3 rp = new Number3();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int [][] game = new int[2][num];
