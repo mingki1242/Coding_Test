@@ -1,5 +1,5 @@
 import java.util.*;
-public class max_arr_continuous {
+public class Array6 {
     public int solution(int arr[] , int num)
     {
         int answer = 0;
@@ -20,7 +20,7 @@ public class max_arr_continuous {
     }
     public static void main (String [] argv)
     {
-        max_arr_continuous mac = new max_arr_continuous();
+        Array6 mac = new Array6();
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int num = sc.nextInt();

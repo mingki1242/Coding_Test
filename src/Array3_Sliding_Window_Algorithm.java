@@ -1,5 +1,5 @@
 import java.util.*;
-public class sold_money {
+public class Array3_Sliding_Window_Algorithm {
     public int solution(int [] arr , int num)
     {
         int answer = 0;
@@ -20,7 +20,7 @@ public class sold_money {
 
     public static void main(String []argv)
     {
-        sold_money sm = new sold_money();
+        Array3_Sliding_Window_Algorithm sm = new Array3_Sliding_Window_Algorithm();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int num2 = sc.nextInt();

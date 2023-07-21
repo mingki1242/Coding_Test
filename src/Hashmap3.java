@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class sold_money_case {
+public class Hashmap3 {
     public ArrayList<Integer> solution(int size , int num , int[] arr)
     {
         ArrayList<Integer> answer = new ArrayList<>();
@@ -27,7 +27,7 @@ public class sold_money_case {
 
     public static void main (String [] argv)
     {
-        sold_money_case sm = new sold_money_case();
+        Hashmap3 sm = new Hashmap3();
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int num = sc.nextInt();

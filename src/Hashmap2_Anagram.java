@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class anagram {
+public class Hashmap2_Anagram {
     public String solution(String arr1 , String arr2)
     {
         String answer = "YES";
@@ -18,7 +18,7 @@ public class anagram {
     }
     public static void main (String [] argv)
     {
-        anagram ag = new anagram();
+        Hashmap2_Anagram ag = new Hashmap2_Anagram();
         Scanner sc = new Scanner(System.in);
         String arr1 = sc.nextLine();
         String arr2 = sc.nextLine();

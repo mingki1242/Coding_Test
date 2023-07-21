@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class natual_num_sum {
+public class Array5 {
     public int solution (int num)
     {
         int answer = 0;
@@ -29,7 +29,7 @@ public class natual_num_sum {
 
     public static void main(String [] argv)
     {
-        natual_num_sum nns = new natual_num_sum();
+        Array5 nns = new Array5();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.print(nns.solution(num));

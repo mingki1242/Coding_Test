@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class reader {
-    /*public int solution(int num , int[][]arr)
+public class Number11 {
+    public int solution(int num , int[][]arr)
     {
         int answer = 0;
         int big = Integer.MIN_VALUE;
@@ -31,7 +31,7 @@ public class reader {
 
     public static void main (String []argv)
     {
-        reader rd = new reader();
+        Number11 rd = new Number11();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int [][] arr = new int[num][5];
@@ -44,6 +44,6 @@ public class reader {
         }
         System.out.print(rd.solution(num , arr));
 
-    }*/
+    }
 
 }

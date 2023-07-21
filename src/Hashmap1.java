@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class hash_class {
+public class Hashmap1 {
     public char solution(String arr , int num)
     {
         char answer = ' ';
@@ -24,7 +24,7 @@ public class hash_class {
     }
     public static void main (String [] argv)
     {
-        hash_class hc = new hash_class();
+        Hashmap1 hc = new Hashmap1();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         String arr = sc.next();

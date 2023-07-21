@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class k_bignum {
+public class Hashmap5_Treeset {
     public int solution(int size , int num ,int [] arr)
     {
         TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder()); //내림차순 정렬
@@ -26,7 +26,7 @@ public class k_bignum {
 
     public static void main (String [] argv)
     {
-        k_bignum kb = new k_bignum();
+        Hashmap5_Treeset kb = new Hashmap5_Treeset();
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int num = sc.nextInt();

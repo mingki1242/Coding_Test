@@ -1,29 +1,44 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
-public class same_group {
-    public ArrayList<Integer> solution(int [] arr1 , int [] arr2)
+
+public class Array1 {
+    public ArrayList<Integer> solution (int [] arr1 , int [] arr2)
     {
         ArrayList<Integer> answer = new ArrayList<>();
         int p1 = 0;
         int p2 = 0;
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
-        while(p1 <arr1.length && p2<arr2.length)
+        while(p1 < arr1.length && p2 < arr2.length)
         {
-            if(arr1[p1] == arr2[p2])
+            if(arr1[p1] < arr2[p2])
             {
-                answer.add(arr1[p1++]);
+                answer.add(arr1[p1]);
+                p1++;
+            }
+            else
+            {
+                answer.add(arr2[p2]);
                 p2++;
             }
-            else if(arr1[p1] < arr2[p2]) p1++;
-            else p2++;
+
         }
+        while(p1 < arr1.length)
+        {
+            answer.add(arr1[p1]);
+            p1++;
+        }
+        while(p2 < arr2.length)
+        {
+            answer.add(arr2[p2]);
+            p2++;
+        }
+
         return answer;
     }
+
+
     public static void main (String [] argv)
     {
-        same_group sg = new same_group();
+        Array1 ac = new Array1();
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
         int [] arr1 = new int[num1];
@@ -38,9 +53,11 @@ public class same_group {
             arr2[i] = sc.nextInt();
         }
 
-        for(int x : sg.solution(arr1 , arr2))
+        for(int x : ac.solution(arr1 , arr2))
         {
             System.out.print(x + " ");
         }
+
     }
+
 }

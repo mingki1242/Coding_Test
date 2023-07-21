@@ -1,8 +1,7 @@
-import javax.security.auth.callback.CallbackHandler;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class continuout_anagram {
+public class Hashmap4 {
     public int solution(String arr , String str)
     {
         int lt = 0;
@@ -33,7 +32,7 @@ public class continuout_anagram {
 
     public static void main (String [] argv)
     {
-        continuout_anagram ca = new continuout_anagram();
+        Hashmap4 ca = new Hashmap4();
 
         Scanner sc = new Scanner(System.in);
         String arr = sc.nextLine();
