@@ -17,7 +17,6 @@ public class Hashmap4 {
         {
             bm.put(arr.charAt(i),bm.getOrDefault(arr.charAt(i),0)+1);
         }
-
         for(rt = str.length()-1 ; rt<arr.length();rt++)
         {
             bm.put(arr.charAt(rt),bm.getOrDefault(arr.charAt(rt),0)+1);

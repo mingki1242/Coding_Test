@@ -30,4 +30,6 @@ public class Hashmap1 {
         String arr = sc.next();
         System.out.print(hc.solution(arr,num));
     }
+
+
 }

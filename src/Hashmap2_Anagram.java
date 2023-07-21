@@ -25,4 +25,6 @@ public class Hashmap2_Anagram {
         System.out.print(ag.solution(arr1,arr2));
 
     }
+
+
 }
