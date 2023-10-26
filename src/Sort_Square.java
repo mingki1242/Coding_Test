@@ -1,2 +1,2 @@
-public class Sort_Square z{
+public class Sort_Square {
 }
