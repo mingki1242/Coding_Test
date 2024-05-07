@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Scanner;
-
+import java.util.*;
 public class Hashmap4 {
     public int solution(String arr , String str)
     {
